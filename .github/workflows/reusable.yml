@@ -6,6 +6,7 @@ on:
         type: string
         description: Name of the artifact to download
         required: true
+        default: dist
 jobs:
   deploy:
     runs-on: ubuntu-latest
